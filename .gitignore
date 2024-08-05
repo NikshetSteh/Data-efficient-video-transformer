@@ -1,2 +1,5 @@
 dist
 menovideo.egg-info
+*.pyc
+/.venv/
+/.idea/
