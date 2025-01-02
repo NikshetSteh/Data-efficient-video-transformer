@@ -110,8 +110,10 @@ def DeVTr(w='none', base='default', classifier='default', mid_layer=1024, mid_dr
                 os.mkdir(os.path.dirname(w))
 
             print("Downloading weights ...")
+            # url = ("https://drive.usercontent.google.com/download?"
+            #        "id=1s7Z1c-4zC522BFVM5EiZDMQLe6ZV8QQh&export=download&authuser=0&confirm=t")
             url = ("https://drive.usercontent.google.com/download?"
-                   "id=1s7Z1c-4zC522BFVM5EiZDMQLe6ZV8QQh&export=download&authuser=0&confirm=t")
+                   "id=1R8BC96P4zBKyweLjciUOsqg1EaBUJS3c&export=download&authuser=0&confirm=t")
             urllib.request.urlretrieve(
                 url,
                 w
